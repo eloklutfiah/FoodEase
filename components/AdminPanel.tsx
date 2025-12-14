@@ -11,11 +11,11 @@ export const AdminPanel: React.FC = () => {
   const [isGenerating, setIsGenerating] = useState(false);
 
   const initialFormState: Partial<Food> = {
-    name: '',
-    price: 0,
-    description: '',
-    ingredients: [],
-    image: '/images/668b52974ead4.jpg',
+    name: 'Sate Ayam Madura',
+    price: 10000,
+    description: 'Chicken satay with thick peanut sauce and rice cakes.',
+    ingredients: ['Chicken', 'Peanut Sauce', 'Sweet Soy Sauce', 'Shallots'],
+    image: '/images/668b52974ead4.jpg'
   };
 
   const handleEdit = (item: Food) => {
