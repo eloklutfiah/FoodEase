@@ -130,8 +130,7 @@ export const useStore = create<AppState>()(
       partialize: (state) => ({ 
         user: state.user, 
         cart: state.cart, 
-        orders: state.orders,
-        foods: state.foods 
+        orders: state.orders
       }),
     }
   )
